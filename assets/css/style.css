@@ -1,0 +1,130 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 246, 246);
+    color: #77777;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 3px, #cccccc;
+    height: 35px;
+    width: 100%;
+}
+.myname {
+    background-color: #4aaaa5;
+    padding: 20px;
+    padding-right: 27px;
+    margin-left: 180px;
+    font-size: 22pt;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: inline;
+}
+.navmenu {
+ 
+    margin-right: 200px;
+    margin-left: 600px;
+    padding-left: 166px;
+    margin-top: -44px;
+}
+.myphoto{
+    Float: left
+    }
+.navmenu li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    color: #777777;
+}
+.format {
+    margin-left: 150px;
+    margin-right: 150px; 
+}
+.contentbox {
+    width: 780px;
+    height: 400px;
+    background-color: white;
+    margin-left: 50px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.boxtitle {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+}
+img  {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 20px;
+}
+p1 {
+    padding-right: 0px;
+    padding-top: 0px;
+}
+lnbr {
+    height: 1px;
+    background-color: #e8e8e8;
+    margin-bottom: 5px;
+}
+
+footer {
+    color: a2a0a0;
+    text-align: center;
+    background-color: #666666;
+    height: 50px;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}
+.seperator {
+    background-color: #4aaaa5;
+    height: 5px;
+}
+.contactform {
+    width: 650px;
+    height: 800;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px; 
+    margin-bottom: 300px;
+}
+form {
+       font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.folio {
+    width: 750px;
+    height: 600px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-left: 210px;
+    margin-right: 150px;
+    margin-bottom: 25px; 
+}
+.portitems {
+    padding-left: 15px;
+}
+.messagebox {
+    width: 650px;
+    height: 200px;
+}
+.emailbox {
+    width: 650px;
+    height: 25px;
+}
+.namebox {
+    width: 650px;
+    height: 25px;
+}
