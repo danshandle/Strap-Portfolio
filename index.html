@@ -7,16 +7,26 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style> body {
-            background-image: url("assets/images/papyrusBG.jpg");
+            background-image: url("assets/images/slateBG.jpg");
             background-color: black;
            }
            p {color:blanchedalmond}
-           h1 {color:white}
+           h1 {color:rgb(167, 17, 17)}
            h2 {color:white}
            h3 {color: white;                }
-           li { color:cornflowerblue}
-           footer {height: 2%
-            }                   
+           li { color:blanchedalmond}
+           .footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            }
+            .row {margin-left: 5%;
+            margin-right: 5%;
+             margin-top: 1%;}
     </style>
        
 </head>
@@ -63,17 +73,35 @@
             </div>
         </nav>
                 
-        <div class="container">   
+        <div class="jumbotron", style="clear">
+
+                <!-- centered text -->
+                <h1 class="text-center"><strong>Welcome to Dan's portfolio</strong></h1>
+                <h2 class="text-center">...thanks for checking it out</h2>
+                <h3 class="text-center">even though it's a W.I.P.</h3>
+          
+                <!-- button with predefined style rules -->
+                <p class="text-center">
+                  <a class="btn btn-primary btn-lg" href="http://unicyclefootball.com" role="button">
+                    <span class="fa fa-envelope"></span>Click to go somewhere cooler</a>
+                </p>
+              </div>  
             <div class="row"> 
-                <div class="col-6 col-sm-8">                                       
-                    <h1 style="color: white">Welcome to Dan's portfolio</h1>
-                    <h2 style="float: left"> Here's my ugly mug </br>
-                    <img src="https://i.imgur.com/D9Bh2lS.jpg" class="img-responsive" style="width:25%" alt="Image">
-                    </h2>
+                <div class="col-lg-6 col-md-6">                                       
+                    <h1 style="color: white">Still, could be worse I guess.</h1>
+                    <h3 style="float: left"> Here's my ugly mug</h3>
+                </br>
+            </br>
+            <img src="assets/images/myface.jpg" alt="my face" class="img-thumbnail">
                 </div>
-                <div class="col-6 col-sm-8"> <h1>Welcome to the show</h1>
+               
+                <div class="col-lg-6 col-md-6"> <h2>Probably will put another pic over here</h2>
+                    <h3> Not sure what's going here yet </h3>
+                    <img src="assets/images/zilker_painting.jpg" alt="Not my painting" class="img-thumbnail">
+                    <p> just a bunch of placeholder text for now. God this looks worse than the first thing I turned in. </p>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="col-6 col-sm-4">  
                         <h2> Ahh, there's the middle bit.</h2> 
@@ -160,11 +188,10 @@
                 </div>
             </div>
 
-        <Footer>
-    
-                    <p>Daniel McCarthy, Austin Texas, 2019</p>
-            </Footer>
-        </div> <!-- /End of Container --> 
+            <div class="footer">
+                    <p>Daniel McCarthy - 2019. Still not great lol</p>
+                  </div>
+        
         
             
 

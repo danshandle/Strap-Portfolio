@@ -16,8 +16,45 @@
                h3 {color: teal;
                     background:thistle}}
                li { color:cornflowerblue}
-               footer {height: 15px
-                }                   
+               .footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            } 
+        
+            input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px;
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px;
+        margin-bottom: 16px; 
+        resize: 
+        }
+
+        input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+        background-color: #45a049;
+        }
+
+        label {
+            color:blanchedalmond
+        }
+
+             
         </style>
     </head>
 
@@ -62,26 +99,31 @@
                     </div>
                 </nav>
 
-        <section class="contactform">
-            <h2 class="boxtitle">Shoot me a message</h2>
-                       
-                <div>
-                    <label for="name">Name</label>
-                    <input class="namebox" type="text" id="name" name="name" placeholder="Your name...">
-                </div>
-                <div>
-                    <label for="email">E-mail</label>
-                    <input class="emailbox" type="text" id="email" name="email" placeholder="Your e-mail...">
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <input class="messagebox" type="text" id="message" name="message" placeholder="Whaddya wanna tell me?">
-                </div>
-                <input type="submit" value="Submit">
-        </section>
+                <div class="container">
+                        <form action="action_page.php">
+                      
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="city">City</label>
+                          <select id="city" name="city">
+                            <option value="Austin">Austin</option>
+                            <option value="not Austin">not Austin</option>
+                            <option value="still not austin">still not austin</option>
+                          </select>
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
+                      </div>
 
-        <Footer>
-                <div class="seperator"></div>
-                <p>Daniel McCarthy, Austin Texas, 2019</p>
-        </Footer>
+        <div class="footer">
+                <p>Daniel McCarthy - 2019. Still not great lol</p>
+              </div>
     </body>
